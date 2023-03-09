@@ -40,7 +40,7 @@ jobs:
           
       - name: Use synopsys unified-action
         # Use the action defined in this repository
-        uses: synopsys-sig/synopsys-action@master
+        uses: testOrgIntegrations/synopsys-unified@master
 #             blackduck_scan_failure_severities: "[\"BLOCKER\", \"CRITICAL\", \"TRIVIAL\"]"
 #             bridge_download_version: "latest"
           #bridge_download_url: 'https://artifactory.internal.synopsys.com/artifactory/clops-local/clops.sig.synopsys.com/synopsys-action/latest/ci-package-0.1.153-macosx.zip'
