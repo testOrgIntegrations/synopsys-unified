@@ -40,7 +40,14 @@ jobs:
           
       - name: Use synopsys unified-action
         # Use the action defined in this repository
-        uses: testOrgIntegrations/synopsys-unified@master
+        uses: synopsys-sig/synopsys-action@SIGINT-496
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          blackduck_url: 'https://testing.blackduck.synopsys.com'
+#             blackduck_url: "https://us1a-qa-hub37.nprd.sig.synopsys.com"
+          blackduck_apiToken: ${{ secrets.BLACKDUCK_API_TOKEN_NEW }}
+          blackduck_scan_full: false
 #             blackduck_scan_failure_severities: "[\"BLOCKER\", \"CRITICAL\", \"TRIVIAL\"]"
 #             bridge_download_version: "latest"
-          #bridge_download_url: 'https://artifactory.internal.synopsys.com/artifactory/clops-local/clops.sig.synopsys.com/synopsys-action/latest/ci-package-0.1.153-macosx.zip'
+          bridge_download_url: 'https://artifactory.internal.synopsys.com/artifactory/clops-local/clops.sig.synopsys.com/synopsys-action/latest/ci-package-0.1.153-macosx.zip'
