@@ -12,7 +12,7 @@
 2022-08-10 16:39:40.4469 IST [--state argument] INFO: Added entry to resource 'polaris.assessment.types'
 2022-08-10 16:39:40.4469 IST [--state argument] DEBUG: Added entry 'SAST' to resource 'polaris.assessment.types'
 2022-08-10 16:39:40.4469 IST [--state argument] INFO: Provided value for resource 'polaris.accesstoken'
-2022-08-10 16:39:40.4469 IST [--state argument] DEBUG: Provided value '4ivieiora145bdndo3vs84g7pgiba4sbj5m4k2lkmuunvjh6e5rdslr9m1i8jtao9nih3i1kmnfu6' for resource 'polaris.accesstoken'
+2022-08-10 16:39:40.4469 IST [--state argument] DEBUG: Provided value '[REDACTED]' for resource 'polaris.accesstoken'
 2022-08-10 16:39:40.4475 IST [IO] INFO: Starting adapters for stage polaris
 2022-08-10 16:39:40.4482 IST [Polaris Controller] INFO: Starting Adapter
 2022-08-10 16:39:40.4482 IST [Polaris Initializer] INFO: Starting Adapter
